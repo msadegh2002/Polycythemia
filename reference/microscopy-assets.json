@@ -1,0 +1,30 @@
+[
+  {
+    "id": "60160",
+    "path": "public/images/ash-60160.jpg",
+    "download": "https://imagebank.hematology.org/getimagebyid/60160?size=3",
+    "source": "https://imagebank.hematology.org/image/60160",
+    "sha256": "bf2663f3ec41e4732600b45c3abb716c918e11ed89ef93a0e2393d1326455688"
+  },
+  {
+    "id": "60161",
+    "path": "public/images/ash-60161.jpg",
+    "download": "https://imagebank.hematology.org/getimagebyid/60161?size=3",
+    "source": "https://imagebank.hematology.org/image/60161",
+    "sha256": "f82e79237044eec1608ba9f871fab74f814730e8706caa73d8582e1cdf74dd75"
+  },
+  {
+    "id": "60162",
+    "path": "public/images/ash-60162.jpg",
+    "download": "https://imagebank.hematology.org/getimagebyid/60162?size=3",
+    "source": "https://imagebank.hematology.org/image/60162",
+    "sha256": "0ca72161d22450698dd35551aefeee8d1bbc4f18c22369ed2bb5f2bb7d77ed4c"
+  },
+  {
+    "id": "60164",
+    "path": "public/images/ash-60164.jpg",
+    "download": "https://imagebank.hematology.org/getimagebyid/60164?size=3",
+    "source": "https://imagebank.hematology.org/image/60164",
+    "sha256": "c31a79aae0e660591bdca3b07450b8fcb135904441ec7f323d87ad60365b4526"
+  }
+]

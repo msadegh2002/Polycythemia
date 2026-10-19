@@ -1,0 +1,98 @@
+[
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Blood-immunology.pptx",
+    "id": "erythrocyte",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/erythrocyte.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 4,
+    "sourceShape": "Group 844",
+    "sha256": "8c12d07f82d8999a8eef8f379f4a3444665761746a7b5c473689caa1ccebad6c"
+  },
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Blood-immunology.pptx",
+    "id": "erythrocyte-oblique",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/erythrocyte-oblique.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 4,
+    "sourceShape": "Group 809",
+    "sha256": "269b44c12e13e180e3eaf86ee88e1c100cc38e454fee2a674339caf20216ad6f"
+  },
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Blood-immunology.pptx",
+    "id": "erythrocyte-front",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/erythrocyte-front.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 4,
+    "sourceShape": "Group 833",
+    "sha256": "d0cf1ae0843cf24f3de937ec7b87bd8d36aef7664bb5ad4d351e018de733547b"
+  },
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Blood-immunology.pptx",
+    "id": "stem-cell",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/stem-cell.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 15,
+    "sourceShape": "Group 17",
+    "sha256": "480a3bba69c8c22adb13068455a792d2701ba964cc3c8d768cbcff9dbe127f47"
+  },
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Blood-immunology.pptx",
+    "id": "neutrophil",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/neutrophil.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 8,
+    "sourceShape": "Group 711",
+    "sha256": "e927e94c8b9c9ce593719315239ba45cdc6f17d0200ffc0d99f53198f47f22ab"
+  },
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Blood-immunology.pptx",
+    "id": "platelet",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/platelet.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 12,
+    "sourceShape": "Group 1208",
+    "sha256": "a47e9877525cd9d6e8c473f8039967ead4140ef7b603eb0154fbed01d8093ade"
+  },
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Urinary-system.pptx",
+    "id": "kidney",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/kidney.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 4,
+    "sourceShape": "Group 3",
+    "sha256": "582df913cd568a5bf22ac4ee037a88e437f8214477120ffa2132e52f44225d4f"
+  },
+  {
+    "source": "https://smart.servier.com/wp-content/uploads/2016/10/SMART-Medical-equipment.pptx",
+    "id": "specimen",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Servier Medical Art",
+    "file": "/art/atlas/specimen.svg",
+    "license": "CC BY 4.0",
+    "modifications": "Original illustration group exported as SVG using PowerPoint. Scaled, positioned, rotated, and animated in the presentation.",
+    "sourceSlide": 5,
+    "sourceShape": "Group 3",
+    "sha256": "7dd37947640fb84067588882ef6039b33c15aaa7ac5fb206262f9ab95a17bd37"
+  }
+]

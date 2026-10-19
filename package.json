@@ -1,0 +1,36 @@
+{
+  "name": "polycythemia",
+  "description": "An illustrated hematology presentation built with Slidev",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msadegh2002/Polycythemia.git"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "preview": "vite preview --host localhost",
+    "export": "slidev export",
+    "review:package": "npm run build && node scripts/package-review.mjs",
+    "postinstall": "node scripts/fetch-microscopy.mjs",
+    "assets:fetch": "node scripts/fetch-microscopy.mjs",
+    "assets:check": "node scripts/fetch-microscopy.mjs --check",
+    "verify": "node scripts/verify-deck.mjs"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  },
+  "overrides": {
+    "floating-vue": "5.2.2"
+  }
+}

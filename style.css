@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('/fonts/SourceSans3VF.woff2') format('woff2');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: block;
+}
+:root { --wine:#862d32; --deep-wine:#64232b; --ink:#242b33; --muted:#616973; --rule:#dfd8d5; --pale:#f6eeee; }
+.slidev-layout { font-family:'Source Sans 3',sans-serif; color:var(--ink); background:#fff; padding:48px 64px 56px; font-size:28px; line-height:1.35; }
+.slidev-layout h1 { color:var(--wine); font-size:48px; font-weight:650; line-height:1.08; letter-spacing:-.025em; margin:0 0 30px; padding:0; max-width:1138px; }
+.slidev-layout h2 { color:var(--wine); font-size:31px; font-weight:650; line-height:1.16; margin:0 0 16px; }
+.slidev-layout h3 { color:var(--wine); font-size:27px; font-weight:650; line-height:1.2; margin:0 0 12px; }
+.slidev-layout p { margin:0 0 22px; line-height:1.38; }
+.slidev-layout.clinical h1 + p { opacity:1; margin-top:0; }
+.slidev-layout strong { font-weight:650; color:var(--wine); }
+.slidev-layout ul,.slidev-layout ol { padding-left:27px; margin:12px 0 20px; }
+.slidev-layout li { padding-left:5px; margin:10px 0; }
+.slidev-layout li::marker { color:var(--wine); }
+.slidev-layout .section { display:block; color:var(--muted); font-size:17px; letter-spacing:.12em; font-weight:600; text-transform:uppercase; margin:0 0 12px; }
+.slidev-layout .subtitle { font-size:30px; line-height:1.28; color:var(--muted); }
+.slidev-layout .lead { font-size:32px; line-height:1.35; }
+.slidev-layout .small { font-size:23px; }
+.slidev-layout .fine { font-size:18px; line-height:1.3; color:var(--muted); }
+.slidev-layout .emphasis { border-left:5px solid var(--wine); padding:16px 24px; background:var(--pale); }
+.slidev-layout .columns { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; }
+.slidev-layout .columns.asym { grid-template-columns:1.15fr .85fr; }
+.slidev-layout .columns > * { min-width:0; }
+.slidev-layout .vertical-rule { border-left:1px solid var(--rule); padding-left:36px; }
+.slidev-layout .rows { margin:0; }
+.slidev-layout .rows > div { display:grid; grid-template-columns:260px 1fr; gap:28px; padding:19px 0; border-bottom:1px solid var(--rule); }
+.slidev-layout .rows > div:first-child { border-top:2px solid var(--wine); }
+.slidev-layout .rows dt { font-weight:650; color:var(--wine); }
+.slidev-layout .rows dd { margin:0; }
+.slidev-layout .rows.compact { font-size:25px; }
+.slidev-layout .rows.compact > div { padding:14px 0; }
+.slidev-layout .rows.wide-label > div { grid-template-columns:300px 1fr; }
+.slidev-layout table { width:100%; border-collapse:collapse; margin:0; font-size:25px; line-height:1.27; }
+.slidev-layout table thead th { text-align:left; color:var(--wine); background:var(--pale); font-weight:650; border-bottom:2px solid var(--wine); }
+.slidev-layout table th,.slidev-layout table td { padding:16px 18px; vertical-align:top; border-bottom:1px solid var(--rule); }
+.slidev-layout table tbody th { text-align:left; color:var(--wine); font-weight:650; }
+.slidev-layout .dense h1 { font-size:44px; }
+.slidev-layout.dense { font-size:25px; }
+.slidev-layout.dense h1 { font-size:43px; margin-bottom:24px; }
+.slidev-layout .mechanism { display:flex; align-items:stretch; gap:0; margin:40px 0; }
+.slidev-layout .mechanism .step { flex:1; min-width:0; border-top:3px solid var(--wine); padding:22px 14px 12px 0; }
+.slidev-layout .mechanism .arrow { color:var(--wine); align-self:center; font-size:35px; padding:0 16px; }
+.slidev-layout .mechanism .step .index { font-size:19px; color:var(--muted); display:block; margin-bottom:12px; }
+.slidev-layout .mechanism h2 { font-size:30px; }
+.slidev-layout .mechanism p { font-size:25px; }
+.slidev-layout .three-col { display:grid; grid-template-columns:repeat(3,1fr); gap:36px; margin-top:32px; }
+.slidev-layout .three-col > div { border-top:2px solid var(--wine); padding-top:20px; }
+.slidev-layout .numbered { display:grid; gap:23px; margin-top:18px; }
+.slidev-layout .numbered article { display:grid; grid-template-columns:45px 1fr; gap:20px; }
+.slidev-layout .numbered .num { font-size:32px; font-weight:650; color:var(--wine); }
+.slidev-layout .numbered article p { margin-bottom:0; }
+.slidev-layout .source-credit { font-size:14px; line-height:1.22; color:#63616a; margin-top:10px; }
+.slidev-layout .source-credit a { color:inherit; border:0; text-decoration:underline; }
+.slidev-layout .microscopy { margin:0; }
+.slidev-layout .microscopy img { display:block; width:100%; height:auto; object-fit:contain; }
+.slidev-layout .microscopy figcaption > b { display:block; font-size:20px; color:var(--wine); margin-top:9px; font-weight:600; }
+.slidev-layout.title-slide { display:flex; flex-direction:column; justify-content:center; background:var(--deep-wine); color:white; padding:76px 86px; }
+.slidev-layout.title-slide h1 { font-size:89px; color:white; font-weight:650; letter-spacing:-.04em; margin:0 0 30px; }
+.slidev-layout.title-slide .subtitle { color:#eedcdd; max-width:810px; font-size:40px; }
+.slidev-layout.title-slide .presenter { margin-top:84px; font-size:27px; color:#f4e6e7; }
+.slidev-layout.title-slide .presenter span { display:block; font-size:18px; color:#dcbfc2; margin-bottom:6px; }
+.slidev-layout.closing h1 { font-size:100px; }
+.slidev-layout .thresholds { display:grid; grid-template-columns:1fr 1fr; gap:36px; margin-bottom:30px; }
+.slidev-layout .thresholds p { font-size:28px; padding:16px 0; margin:0; border-top:2px solid var(--wine); }
+.slidev-layout .classification-summary { display:grid; gap:22px; }
+.slidev-layout .classification-summary section { display:grid; grid-template-columns:48px 270px 1fr; gap:20px; border-top:1px solid var(--rule); padding-top:20px; }
+.slidev-layout .classification-summary .num { color:var(--wine); font-size:42px; line-height:1; }
+.slidev-layout .classification-summary h2 { font-size:30px; }
+.slidev-layout .classification-summary p { font-size:24px; margin-bottom:10px; }
+.slidev-layout .epidemiology { display:grid; grid-template-columns:305px 1fr; gap:55px; }
+.slidev-layout .epidemiology .stat { color:var(--wine); font-size:94px; letter-spacing:-.06em; line-height:1; font-weight:650; margin-top:9px; }
+.slidev-layout .epidemiology .stat-caption { font-size:26px; margin-top:15px; }
+.slidev-layout .epidemiology ul { margin-top:0; }
+.slidev-layout .epidemiology li { margin:0 0 23px; }
+.slidev-layout .criteria { font-size:24px; }
+.slidev-layout .criteria h2 { font-size:25px; margin:0 0 9px; }
+.slidev-layout .criteria ol { margin:0 0 19px; }
+.slidev-layout .criteria li { padding-left:9px; margin:10px 0; }
+.slidev-layout .criteria .footnotes { border-top:1px solid var(--rule); padding-top:12px; font-size:20px; }
+.slidev-layout .criteria .footnotes p { margin-bottom:9px; }
+.slidev-layout .treatment-list { margin-top:24px; }
+.slidev-layout .treatment-list > div { display:grid; grid-template-columns:56px 1fr; gap:24px; border-top:1px solid var(--rule); padding:29px 0; }
+.slidev-layout .treatment-list .num { color:var(--wine); font-size:30px; }
+.slidev-layout .treatment-list p { font-size:32px; margin:0; }
+.slidev-layout .treatment-list strong { color:var(--wine); }
+.slidev-layout.causes-slide .rows { font-size:23px; line-height:1.24; }
+.slidev-layout.causes-slide .rows > div { padding:9px 0; grid-template-columns:270px 1fr; gap:24px; }
+.slidev-layout.morphology-slide .columns { grid-template-columns:1fr 1.1fr; gap:36px; }
+.slidev-layout.morphology-slide .rows > div { grid-template-columns:90px 1fr; gap:14px; padding:21px 0; }
+.slidev-layout.morphology-slide .rows dd { font-size:26px; }
+.slidev-layout.criteria-slide .criteria .footnotes { font-size:19px; }
+.slidev-layout.criteria-slide .criteria li { margin:8px 0; }
+.slidev-layout.relative-slide .volume-diagram { height:210px; margin-top:10px; }
+@media (prefers-reduced-motion:reduce) { * { transition:none !important; animation:none !important; } }
+
+/* Illustrated hematology edition. Clinical content stays native and editable. */
+:root { --wine:#842b3b; --deep-wine:#59212f; --ink:#30272c; --muted:#74656a; --rule:#decdc4; --pale:#efdfd7; --paper:#f8f2e9; }
+.slidev-layout.clinical { isolation:isolate; background:var(--paper); padding:44px 64px 54px; }
+.slidev-layout.clinical::before { content:''; position:absolute; left:0; top:0; height:100%; width:9px; background:var(--wine); z-index:2; }
+.slidev-layout.clinical h1 { position:relative; z-index:1; font-size:48px; margin-bottom:27px; line-height:1.06; letter-spacing:-.03em; font-weight:650; }
+.slidev-layout.clinical.dense h1 { font-size:44px; }
+.slidev-layout.clinical p { line-height:1.34; }
+.slidev-layout.clinical h2 { font-weight:650; }
+.slidev-layout.clinical .deck-content { position:relative; z-index:1; }
+.slidev-layout.clinical .section { color:#966d71; font-size:16px; letter-spacing:.14em; margin-bottom:13px; }
+.slidev-layout.clinical .subtitle { color:#846970; font-size:29px; }
+.slidev-layout.clinical .emphasis { background:#ead7d0; border-left:4px solid #a64353; padding:17px 24px; }
+.slidev-layout.clinical .rows > div { border:0; padding:17px 0; }
+.slidev-layout.clinical .rows dt { font-size:27px; font-weight:650; }
+.slidev-layout.clinical .rows dd { color:#44343a; }
+.slidev-layout.clinical .rows.compact > div { padding:12px 0; }
+.slidev-layout.clinical .rows.compact dt { font-size:25px; }
+.slidev-layout.clinical .rows > div + div { border-top:1px solid #decdc4; }
+.slidev-layout.clinical .fine { color:#826e73; }
+.slidev-layout.clinical table { background:#fffaf3; }
+.slidev-layout.clinical table thead th { background:#e7d2c9; }
+.slidev-layout.clinical table td,.slidev-layout.clinical table th { border-color:#ddc9bf; }
+.slidev-layout.clinical.title-slide { background:radial-gradient(ellipse at 95% 30%,#913c49 0%,#6d2939 44%,#4d202f 100%); padding:76px 76px 60px; }
+.slidev-layout.clinical.title-slide::before { background:#c87578; width:10px; }
+.slidev-layout.clinical.title-slide h1 { font-size:88px; letter-spacing:-.045em; color:#fff2df; max-width:790px; margin-bottom:28px; }
+.slidev-layout.clinical.title-slide .deck-content { max-width:710px; }
+.slidev-layout.clinical.title-slide .subtitle { font-size:38px; color:#f0d5cd; max-width:670px; line-height:1.22; }
+.slidev-layout.clinical.title-slide .presenter { margin-top:82px; font-size:28px; color:#fff0df; }
+.slidev-layout.clinical.title-slide .presenter span { color:#dba7ac; font-size:17px; letter-spacing:.06em; }
+.slidev-layout.clinical.closing h1 { font-size:104px; max-width:750px; }
+.slidev-layout.clinical.source-02 .deck-content { width:825px; }
+.slidev-layout.clinical.source-02 .deck-content>p:first-child { font-size:32px; line-height:1.32; margin-top:40px; }
+.slidev-layout.clinical.source-02 .deck-content>p:last-child { margin-top:43px; font-size:27px; color:#73535b; }
+.slidev-layout.clinical.source-03 .classification-summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:36px; margin-top:24px; }
+.slidev-layout.clinical.source-03 .classification-summary section { display:flex; flex-direction:column; gap:12px; border:0; padding:0 0 0 22px; border-left:2px solid #c99091; }
+.slidev-layout.clinical.source-03 .classification-summary .num { font-size:65px; line-height:1; margin-bottom:12px; color:#ad6570; }
+.slidev-layout.clinical.source-03 .classification-summary h2 { font-size:30px; min-height:80px; max-width:290px; }
+.slidev-layout.clinical.source-03 .classification-summary p { font-size:23px; line-height:1.3; margin-bottom:17px; }
+.slidev-layout.clinical.source-04 .hematology-art,.slidev-layout.clinical.source-16 .hematology-art,.slidev-layout.clinical.source-20 .hematology-art,.slidev-layout.clinical.source-23 .hematology-art { display:none; }
+.slidev-layout.clinical.source-05 .deck-content { max-width:930px; }
+.slidev-layout.clinical.source-05 table { font-size:28px; }
+.slidev-layout.clinical.source-05 table th,.slidev-layout.clinical.source-05 table td { padding:17px 20px; }
+.slidev-layout.clinical.source-05 .hematology-art.specimen { right:-28px; top:222px; width:220px; opacity:.9; }
+.slidev-layout.clinical.source-05 .hematology-art.specimen .art-tube { height:270px; right:0; }
+.slidev-layout.clinical.source-06 .columns { margin-top:12px; }
+.slidev-layout.clinical.source-06 .lead { font-size:29px; }
+.slidev-layout.clinical.source-07 .lead { font-size:35px; max-width:870px; }
+.slidev-layout.clinical.source-07 .blood-volume { margin:25px 0; }
+.slidev-layout.clinical.source-07 .emphasis { font-size:29px; }
+.slidev-layout.clinical.source-08 .deck-content { max-width:850px; }
+.slidev-layout.clinical.source-08 h1 { font-size:57px; max-width:1000px; }
+.slidev-layout.clinical.source-08 .lead { font-size:34px; }
+.slidev-layout.clinical.source-08 li { font-size:31px; margin-bottom:18px; }
+.slidev-layout.clinical.source-08 .hematology-art.specimen { top:245px; }
+.slidev-layout.clinical.source-09 .mechanism { margin:23px 0 28px; }
+.slidev-layout.clinical.source-09 .mechanism .step { border-top:0; background:#eddbd2; padding:24px 20px; }
+.slidev-layout.clinical.source-09 .three-col>div { border-top:0; padding:0 0 0 22px; border-left:2px solid #c58a8c; }
+.slidev-layout.clinical.source-10 .rows { display:grid; grid-template-columns:1fr 1fr; gap:14px 44px; margin-top:12px; }
+.slidev-layout.clinical.source-10 .rows > div { display:block; padding:0; border:0; }
+.slidev-layout.clinical.source-10 .rows dt { font-size:23px; margin-bottom:7px; }
+.slidev-layout.clinical.source-10 .rows dd { font-size:22px; line-height:1.24; }
+.slidev-layout.clinical.source-11 .rows,.slidev-layout.clinical.source-12 .rows { display:grid; grid-template-columns:1fr 1fr; gap:32px 48px; margin-top:33px; }
+.slidev-layout.clinical.source-11 .rows > div,.slidev-layout.clinical.source-12 .rows > div { display:block; border:0; padding:0 0 0 22px; border-left:3px solid #bb7a83; }
+.slidev-layout.clinical.source-11 .rows dt,.slidev-layout.clinical.source-12 .rows dt { font-size:30px; margin-bottom:18px; }
+.slidev-layout.clinical.source-11 .rows dd,.slidev-layout.clinical.source-12 .rows dd { font-size:28px; line-height:1.33; }
+.slidev-layout.clinical.source-13 .rows dt { font-size:25px; }
+.slidev-layout.clinical.source-13 .rows dd { font-size:24px; }
+.slidev-layout.clinical.source-13 .rows>div { padding:12px 0; }
+.slidev-layout.clinical.source-14 .lead { max-width:1050px; font-size:31px; }
+.slidev-layout.clinical.source-14 .mechanism .step { border-color:#c38d8f; }
+.slidev-layout.clinical.source-15 .columns { margin-top:30px; }
+.slidev-layout.clinical.source-15 .columns>div { padding-left:24px; border-left:3px solid #c38d8f; }
+.slidev-layout.clinical.source-15 li { font-size:28px; line-height:1.3; margin:15px 0; }
+.slidev-layout.clinical.source-15 .emphasis { font-size:24px; }
+.slidev-layout.clinical.source-16 h1 { font-size:42px; }
+.slidev-layout.clinical.source-17 .thresholds { gap:45px; margin-bottom:24px; }
+.slidev-layout.clinical.source-17 .thresholds p { font-size:31px; font-weight:600; color:var(--wine); border-color:#c58b8d; }
+.slidev-layout.clinical.source-17 .rows>div { padding:10px 0; }
+.slidev-layout.clinical.source-17 .hematology-art.cells { right:-150px; top:415px; opacity:.13; }
+.slidev-layout.clinical.source-18 .columns { margin-top:20px; gap:58px; }
+.slidev-layout.clinical.source-18 .columns>div { padding-top:20px; border-top:3px solid #b66c78; }
+.slidev-layout.clinical.source-18 p { font-size:26px; line-height:1.37; }
+.slidev-layout.clinical.source-19 .emphasis { font-size:31px; }
+.slidev-layout.clinical.source-20 .criteria { font-size:24px; }
+.slidev-layout.clinical.source-20 .criteria h2 { font-size:26px; }
+.slidev-layout.clinical.source-20 .criteria .footnotes { font-size:19px; }
+.slidev-layout.clinical.source-21 .epidemiology { grid-template-columns:290px 1fr; margin-top:15px; }
+.slidev-layout.clinical.source-21 .stat { font-size:128px; color:var(--wine); }
+.slidev-layout.clinical.source-21 .stat-caption { font-size:27px; }
+.slidev-layout.clinical.source-21 li { font-size:28px; line-height:1.33; margin-bottom:23px; }
+.slidev-layout.clinical.source-21 .hematology-art.cells { opacity:.11; right:-70px; top:390px; }
+.slidev-layout.clinical.source-22 .columns { grid-template-columns:1fr 265px; gap:44px; }
+.slidev-layout.clinical.source-22 .numbered { grid-template-columns:1fr 1fr; gap:32px 36px; margin-top:28px; }
+.slidev-layout.clinical.source-22 .numbered article { display:block; border-top:3px solid #c08b8d; padding-top:20px; }
+.slidev-layout.clinical.source-22 .numbered .num { font-size:44px; display:block; color:#b97882; margin-bottom:9px; }
+.slidev-layout.clinical.source-22 .numbered h3 { font-size:28px; }
+.slidev-layout.clinical.source-22 .numbered p { font-size:26px; line-height:1.3; }
+.slidev-layout.clinical.source-22>.hematology-art { display:none; }
+.slidev-layout.clinical.source-23 .columns { gap:34px; }
+.slidev-layout.clinical.source-23 .rows dt { font-size:25px; }
+.slidev-layout.clinical.source-23 .rows dd { font-size:26px; }
+.slidev-layout.clinical.source-24 .deck-content { max-width:820px; margin-top:28px; }
+.slidev-layout.clinical.source-24 .complications-prose p { font-size:30px; line-height:1.36; margin-bottom:23px; }
+.slidev-layout.clinical.source-24 .hematology-art.cells { right:-10px; top:250px; opacity:.85; }
+.slidev-layout.clinical.source-25 .rows { counter-reset:phenotype; }
+.slidev-layout.clinical.source-25 .rows>div { grid-template-columns:310px 1fr; position:relative; padding-left:50px; }
+.slidev-layout.clinical.source-25 .rows>div:before { counter-increment:phenotype; content:'0' counter(phenotype); position:absolute; left:0; top:14px; color:#b67e87; font-size:23px; }
+.slidev-layout.clinical.source-25 .rows dt { font-size:26px; }
+.slidev-layout.clinical.source-26 .rows { display:grid; grid-template-columns:1fr 1fr; gap:28px 44px; margin-top:15px; }
+.slidev-layout.clinical.source-26 .rows>div { display:block; border:0; padding:0 0 0 24px; border-left:3px solid #c08b8d; }
+.slidev-layout.clinical.source-26 .rows>div:first-child,.slidev-layout.clinical.source-26 .rows>div:last-child { grid-column:1/-1; }
+.slidev-layout.clinical.source-26 .rows>div:first-child { background:#ead6ce; padding:22px 26px; border:0; }
+.slidev-layout.clinical.source-26 .rows dt { font-size:28px; margin-bottom:11px; }
+.slidev-layout.clinical.source-26 .rows dd { font-size:26px; line-height:1.3; }
+.slidev-layout.clinical.source-26 .rows>div:last-child dd { font-size:24px; }
+.slidev-layout.clinical.source-27 .treatment-list { display:grid; grid-template-columns:repeat(3,1fr); gap:42px; margin-top:45px; }
+.slidev-layout.clinical.source-27 .treatment-list>div { display:block; padding:0; border:0; }
+.slidev-layout.clinical.source-27 .treatment-list .num { font-size:75px; display:block; color:#b47680; margin-bottom:25px; line-height:1; }
+.slidev-layout.clinical.source-27 .treatment-list p { font-size:32px; line-height:1.3; }
+.slidev-layout.clinical.diagram-page h1 { font-size:50px; max-width:1100px; }
+.slidev-layout.clinical.diagram-page .diagram-intro { font-size:25px; color:var(--muted); max-width:1080px; margin-bottom:12px; }
+.slidev-layout.clinical.diagram-page .hematology-art { opacity:.45; }
+.slidev-layout.clinical.microscopy-page { background:#30242e; color:#f3e7da; }
+.slidev-layout.clinical.microscopy-page::before { background:#ad6675; }
+.slidev-layout.clinical.microscopy-page h1 { color:#f4e4d7; font-size:48px; margin-bottom:23px; }
+.slidev-layout.clinical.microscopy-page .hematology-art { display:none; }
+@media(prefers-reduced-motion:reduce){ .slidev-layout [style*="opacity"]{transition:none!important} }
+
+/* Medical-atlas edition: topic-specific illustrations and a clinical reading surface. */
+:root{--wine:#85243b;--deep-wine:#421d30;--ink:#28262e;--muted:#77717a;--rule:#dcd6dd;--pale:#f0e4e8;--paper:#faf9f6;--violet:#6d5a80;--signal:#47758a}
+.slidev-layout.clinical.atlas{background:var(--paper)}
+.slidev-layout.clinical.atlas::before{display:none}
+.slidev-layout.clinical.atlas h1{font-weight:620;letter-spacing:-.028em;color:var(--wine)}
+.slidev-layout.clinical.atlas .section{color:var(--violet)}
+.slidev-layout.clinical.atlas .rows dd{color:var(--ink)}
+.slidev-layout.clinical.atlas .emphasis{background:#efe8ed;border-color:var(--violet)}
+.slidev-layout.clinical.atlas table thead th{background:#eee5e9}
+.slidev-layout.clinical.atlas table td,.slidev-layout.clinical.atlas table th{border-color:#ddd5da}
+.slidev-layout.clinical.atlas table tbody{background:#fefdfb}
+.slidev-layout.clinical.atlas.title-slide{background:radial-gradient(ellipse at 90% 40%,#612b3d 0%,#322331 48%,#25232d 100%);padding:76px 76px 60px}
+.slidev-layout.clinical.atlas.title-slide h1{color:#fff8ee;font-size:88px;max-width:760px;letter-spacing:-.04em}
+.slidev-layout.clinical.atlas.title-slide .deck-content{max-width:690px}
+.slidev-layout.clinical.atlas.title-slide .subtitle{font-size:37px;max-width:665px;color:#e0ced5}
+.slidev-layout.clinical.atlas.title-slide .presenter{color:#fff5ec}
+.slidev-layout.clinical.atlas.title-slide .presenter span{color:#bba9b9}
+.slidev-layout.clinical.atlas.closing h1{font-size:104px}
+.slidev-layout.clinical.atlas.source-02 .deck-content{width:765px}
+.slidev-layout.clinical.atlas.source-02 .deck-content>p:first-child{font-size:31px;line-height:1.34;margin-top:35px}
+.slidev-layout.clinical.atlas.source-02 .deck-content>p:last-child{font-size:27px;color:#6c5967;margin-top:37px}
+.slidev-layout.clinical.atlas.source-02 .atlas-art{right:40px;top:213px;width:330px;height:380px}
+.slidev-layout.clinical.atlas.source-05 .atlas-art{right:9px;top:240px;width:200px;height:330px}
+.slidev-layout.clinical.atlas.source-05 .specimen img:not(.specimen-cell){height:235px;width:30px}
+.slidev-layout.clinical.atlas.source-05 .specimen-1{left:20px}.slidev-layout.clinical.atlas.source-05 .specimen-2{left:75px}.slidev-layout.clinical.atlas.source-05 .specimen-3{left:130px}
+.slidev-layout.clinical.atlas.source-05 .specimen .specimen-cell{top:200px;left:75px;width:100px;height:80px}
+.slidev-layout.clinical.atlas.source-05 .art-caption{font-size:12px;bottom:20px}
+.slidev-layout.clinical.atlas.source-08 .deck-content{max-width:805px}
+.slidev-layout.clinical.atlas.source-08 h1{font-size:54px}
+.slidev-layout.clinical.atlas.source-08 .lead{font-size:32px;max-width:790px}
+.slidev-layout.clinical.atlas.source-08 h2{font-size:30px;max-width:790px}
+.slidev-layout.clinical.atlas.source-08 li{font-size:29px}
+.slidev-layout.clinical.atlas.source-08 .atlas-art{right:42px;top:265px;width:290px;height:330px}
+.slidev-layout.clinical.atlas.source-08 .stem-main{width:260px;height:270px}
+.slidev-layout.clinical.atlas.source-09 .mechanism .step{background:#eee6eb}
+.slidev-layout.clinical.atlas.source-15 .deck-content{max-width:850px}
+.slidev-layout.clinical.atlas.source-15 .columns{gap:30px;margin-top:26px}
+.slidev-layout.clinical.atlas.source-15 .columns>div{padding-left:18px;border-color:#b1a0ba}
+.slidev-layout.clinical.atlas.source-15 .columns h2{font-size:30px}
+.slidev-layout.clinical.atlas.source-15 li{font-size:26px;margin:11px 0;line-height:1.25}
+.slidev-layout.clinical.atlas.source-15 .emphasis{font-size:24px}
+.slidev-layout.clinical.atlas.source-15 .atlas-art{width:250px;height:320px;right:36px;top:281px}
+.slidev-layout.clinical.atlas.source-15 .stem-main{width:240px;height:265px;left:0}
+.slidev-layout.clinical.atlas.source-17 .deck-content{max-width:885px}
+.slidev-layout.clinical.atlas.source-17 .thresholds{gap:25px;margin-bottom:22px}
+.slidev-layout.clinical.atlas.source-17 .thresholds p{font-size:29px}
+.slidev-layout.clinical.atlas.source-17 .rows>div{grid-template-columns:240px 1fr;gap:22px;padding:10px 0}
+.slidev-layout.clinical.atlas.source-17 .rows dt{font-size:24px}
+.slidev-layout.clinical.atlas.source-17 .rows dd{font-size:24px}
+.slidev-layout.clinical.atlas.source-17 .atlas-art{right:28px;top:285px;width:255px;height:350px;opacity:1}
+.slidev-layout.clinical.atlas.source-22 .numbered article{border-color:#c6b3c3}
+.slidev-layout.clinical.atlas.source-22 .numbered .num{font-size:34px;color:var(--violet)}
+.slidev-layout.clinical.atlas.source-22 .columns{grid-template-columns:1fr 250px}
+.slidev-layout.clinical.atlas.source-24 .atlas-art{right:32px;top:230px;width:290px;height:385px;opacity:1}
+.slidev-layout.clinical.atlas.source-24 .complications-prose p{font-size:29px}
+.slidev-layout.clinical.atlas.source-26 .rows>div:first-child{background:#ede7eb;padding:24px 26px;min-height:169px}
+.slidev-layout.clinical.atlas.source-26 .rows>div:first-child dd{max-width:785px;font-size:25px}
+.slidev-layout.clinical.atlas.source-26 .rows>div:not(:first-child){border-color:#b69eb1}
+.slidev-layout.clinical.atlas.microscopy-page{background:#29232f}
+.slidev-layout.clinical.atlas.microscopy-page h1{color:#f5e7e9}
+.slidev-layout.clinical.atlas.morphology-slide .rows dt{color:var(--violet)}
+.slidev-layout.clinical.atlas.diagram-page h1{font-size:49px}
+
+/* Atlas figures share the same label, rule, and signaling colors. */
+.atlas .jak-comparison .lane{opacity:1}
+.atlas .jak-comparison .signal-flow{opacity:.2;transition:opacity .5s}
+.atlas .jak-comparison .lane.active .signal-flow{opacity:1}
+.atlas .jak-comparison .lane-heading{position:relative;padding-right:85px;border-top-width:2px}
+.atlas .jak-comparison .lane-heading h2{font-size:28px!important;margin-bottom:20px!important}
+.atlas .jak-comparison .lane-art{position:absolute;right:0;top:15px;width:70px;height:65px;object-fit:contain}
+.atlas .jak-comparison .emphasis-node{background:#efe6eb}
+.atlas .jak-comparison .autonomous .emphasis-node{background:var(--wine)}
+.atlas .classification-walkthrough .branch-detail{border-color:#ae829c}
+.atlas .workup-map aside{border-top-width:2px}
+.atlas .workup-map .spoke{stroke:#cbbdca;stroke-width:2}
+.atlas .workup-map .spoke.lit{stroke:var(--wine);stroke-width:2.5}
+.atlas .jak-pathway-scene .between-arrow{font-size:29px;color:var(--violet)}
+.atlas .microscopy-stage .specimen-rule{background:#b08cae}
+.atlas .microscopy-stage .phase,.atlas .microscopy-stage .stage-credit{color:#cfc0d0}
+.atlas .microscopy-stage .image-id{color:#bda6c1}
+@media(prefers-reduced-motion:reduce){.atlas .jak-comparison .signal-flow{transition:none!important}}
+
+/* Keep the treatment target above its reading band and away from the prose. */
+.slidev-layout.clinical.atlas .atlas-art.treatment{z-index:2;width:270px;right:64px}
+.slidev-layout.clinical.atlas .atlas-art.treatment .target-value{font-size:80px}
+.slidev-layout.clinical.atlas .atlas-art.treatment img{width:85px;height:55px;right:0;top:55px;opacity:.9;transform:rotate(-10deg)}
+.slidev-layout.clinical.atlas.source-05 .atlas-art{right:64px;width:170px}
+
+/* Modern clinical figures: one typography, evidence, and motion system. */
+:root{--figure-line:#beb3c2;--figure-ease:cubic-bezier(.2,.7,.2,1);--path-duration:600ms;--focus-duration:280ms}
+.slidev-layout.clinical.atlas{font-variant-numeric:tabular-nums}
+.slidev-layout.clinical.atlas table{background:transparent}
+.slidev-layout.clinical.atlas table thead th{background:#f0ecf0;border-bottom:1px solid #b8a6b8;font-weight:600;color:#594253}
+.slidev-layout.clinical.atlas table tbody{background:#fdfcfa}
+.slidev-layout.clinical.atlas table td,.slidev-layout.clinical.atlas table th{border-bottom-color:#dfd9e0}
+.slidev-layout.clinical.atlas table tbody th{color:var(--ink);font-weight:600}
+.slidev-layout.clinical.atlas.source-05 table th,.slidev-layout.clinical.atlas.source-05 table td{padding:20px}
+.slidev-layout.clinical.atlas.source-05 table thead th{font-size:25px}
+.slidev-layout.clinical.atlas.source-05 table tbody td{font-size:30px;white-space:nowrap}
+.slidev-layout.clinical.atlas.source-13 .rows>div{grid-template-columns:260px 1fr;gap:30px;padding:16px 0}
+.slidev-layout.clinical.atlas.source-13 .rows dt,.slidev-layout.clinical.atlas.source-13 .rows dd{font-size:26px;line-height:1.25}
+.slidev-layout.clinical.atlas.source-13 .rows>div:first-child{border-top:2px solid var(--figure-line)}
+.slidev-layout.clinical.atlas.source-25 .rows>div{grid-template-columns:305px 1fr;padding-top:17px;padding-bottom:17px}
+.slidev-layout.clinical.atlas.source-25 .rows>div::before{top:19px;color:var(--violet);font-size:19px}
+.slidev-layout.clinical.atlas.source-25 .rows dd{font-size:26px;line-height:1.27}
+.slidev-layout.clinical.atlas.source-23 .rows>div{padding:22px 0}
+.slidev-layout.clinical.atlas.source-23 .rows dt{font-size:27px}
+.slidev-layout.clinical.atlas.source-23 .rows dd{line-height:1.28}
+.slidev-layout.clinical.atlas .class-tree .root{background:transparent;color:var(--wine);border-bottom:2px solid var(--wine);padding-top:0}
+.slidev-layout.clinical.atlas .class-tree .root span{color:var(--muted)}
+.slidev-layout.clinical.atlas .class-tree .relative{border-left-width:2px}
+.slidev-layout.clinical.atlas .class-tree .etiologies>section{border-top-color:var(--figure-line)}
+.focus-enter{animation:figure-focus-in var(--focus-duration) var(--figure-ease) both}
+@keyframes figure-focus-in{from{opacity:.25;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.focus-enter{animation:none!important}.slidev-layout.clinical.atlas *{transition:none!important;animation:none!important}}

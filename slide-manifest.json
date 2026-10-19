@@ -1,0 +1,551 @@
+[
+  {
+    "id": "source-01",
+    "sourceSlide": 1,
+    "sourceRefs": [
+      1
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Polycythemias:",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "cover",
+    "illustrationCredit": true,
+    "position": 1
+  },
+  {
+    "id": "source-02",
+    "sourceSlide": 2,
+    "sourceRefs": [
+      2
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Erythrocytosis",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "erythrocyte",
+    "illustrationCredit": true,
+    "position": 2
+  },
+  {
+    "id": "diagram-volume",
+    "sourceSlide": null,
+    "sourceRefs": [
+      2,
+      6,
+      7
+    ],
+    "kind": "diagram",
+    "clicks": 2,
+    "title": "Red-cell mass and plasma volume",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "diagram-volume",
+    "illustrationCredit": true,
+    "position": 3
+  },
+  {
+    "id": "source-03",
+    "sourceSlide": 3,
+    "sourceRefs": [
+      3
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Classification",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 4
+  },
+  {
+    "id": "source-04",
+    "sourceSlide": 4,
+    "sourceRefs": [
+      4
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Clinical classification of erythrocytosis / polycythemia",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 5
+  },
+  {
+    "id": "diagram-classification",
+    "sourceSlide": null,
+    "sourceRefs": [
+      3,
+      4,
+      8,
+      15
+    ],
+    "kind": "diagram",
+    "clicks": 3,
+    "title": "Classification: follow the mechanism",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 6
+  },
+  {
+    "id": "source-05",
+    "sourceSlide": 5,
+    "sourceRefs": [
+      5
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Reference ranges",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "specimen",
+    "illustrationCredit": true,
+    "position": 7
+  },
+  {
+    "id": "source-06",
+    "sourceSlide": 6,
+    "sourceRefs": [
+      6
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Relative erythrocytosis: Gaisböck",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "source-06",
+    "illustrationCredit": true,
+    "position": 8
+  },
+  {
+    "id": "source-07",
+    "sourceSlide": 7,
+    "sourceRefs": [
+      7
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Relative erythrocytosis",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "source-07",
+    "illustrationCredit": true,
+    "position": 9
+  },
+  {
+    "id": "source-08",
+    "sourceSlide": 8,
+    "sourceRefs": [
+      8
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute (True) Polycythemia",
+    "image": null,
+    "chapter": "foundations",
+    "artwork": "stem",
+    "illustrationCredit": true,
+    "position": 10
+  },
+  {
+    "id": "source-09",
+    "sourceSlide": 9,
+    "sourceRefs": [
+      9
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute SECONDARY erythrocytosis",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 11
+  },
+  {
+    "id": "diagram-epo",
+    "sourceSlide": null,
+    "sourceRefs": [
+      9,
+      18
+    ],
+    "kind": "diagram",
+    "clicks": 2,
+    "title": "Hypoxia, EPO and the marrow",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "diagram-epo",
+    "illustrationCredit": true,
+    "position": 12
+  },
+  {
+    "id": "source-10",
+    "sourceSlide": 10,
+    "sourceRefs": [
+      10
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute SECONDARY erythrocytosis",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 13
+  },
+  {
+    "id": "source-11",
+    "sourceSlide": 11,
+    "sourceRefs": [
+      11
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute secondary erythrocytosis",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 14
+  },
+  {
+    "id": "source-12",
+    "sourceSlide": 12,
+    "sourceRefs": [
+      12
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute secondary erythrocytosis",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 15
+  },
+  {
+    "id": "source-13",
+    "sourceSlide": 13,
+    "sourceRefs": [
+      13
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute secondary erythrocytosis: laboratory work-up",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 16
+  },
+  {
+    "id": "diagram-workup",
+    "sourceSlide": null,
+    "sourceRefs": [
+      13
+    ],
+    "kind": "diagram",
+    "clicks": 4,
+    "title": "Erythrocytosis: the work-up map",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "diagram-workup",
+    "illustrationCredit": true,
+    "position": 17
+  },
+  {
+    "id": "source-14",
+    "sourceSlide": 14,
+    "sourceRefs": [
+      14
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute SECONDARY erythrocytosis",
+    "image": null,
+    "chapter": "secondary",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 18
+  },
+  {
+    "id": "source-15",
+    "sourceSlide": 15,
+    "sourceRefs": [
+      15
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Absolute hereditary / congenital erythrocytosis",
+    "image": null,
+    "chapter": "hereditary",
+    "artwork": "stem",
+    "illustrationCredit": true,
+    "position": 19
+  },
+  {
+    "id": "source-16",
+    "sourceSlide": 16,
+    "sourceRefs": [
+      16
+    ],
+    "kind": "source",
+    "clicks": 6,
+    "title": "TABLE 1. Differential Diagnosis of Polycythemia",
+    "image": null,
+    "chapter": "hereditary",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 20
+  },
+  {
+    "id": "source-17",
+    "sourceSlide": 17,
+    "sourceRefs": [
+      17
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "PV: absolute primary acquired erythrocytosis",
+    "image": null,
+    "chapter": "pv",
+    "artwork": "marrow",
+    "illustrationCredit": true,
+    "position": 21
+  },
+  {
+    "id": "source-18",
+    "sourceSlide": 18,
+    "sourceRefs": [
+      18
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "PV: Pathophysiology",
+    "image": null,
+    "chapter": "pv",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 22
+  },
+  {
+    "id": "source-19",
+    "sourceSlide": 19,
+    "sourceRefs": [
+      19
+    ],
+    "kind": "source",
+    "clicks": 3,
+    "title": "PV: EPO-independent erythropoiesis",
+    "image": null,
+    "chapter": "pv",
+    "artwork": "source-19",
+    "illustrationCredit": true,
+    "position": 23
+  },
+  {
+    "id": "diagram-jak2",
+    "sourceSlide": null,
+    "sourceRefs": [
+      18,
+      19
+    ],
+    "kind": "diagram",
+    "clicks": 3,
+    "title": "EPO-driven and autonomous signaling",
+    "image": null,
+    "chapter": "pv",
+    "artwork": "diagram-jak2",
+    "illustrationCredit": true,
+    "position": 24
+  },
+  {
+    "id": "source-20",
+    "sourceSlide": 20,
+    "sourceRefs": [
+      20
+    ],
+    "kind": "source",
+    "clicks": 3,
+    "title": "TABLE 2. International Consensus Criteria for the Diagnosis of Polycythemia Vera",
+    "image": null,
+    "chapter": "pv",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 25
+  },
+  {
+    "id": "source-21",
+    "sourceSlide": 21,
+    "sourceRefs": [
+      21
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "PV: Epidemiology",
+    "image": null,
+    "chapter": "pv",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 26
+  },
+  {
+    "id": "source-22",
+    "sourceSlide": 22,
+    "sourceRefs": [
+      22
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "PV laboratory diagnosis",
+    "image": null,
+    "chapter": "laboratory",
+    "artwork": "specimen-inline",
+    "illustrationCredit": true,
+    "position": 27
+  },
+  {
+    "id": "microscopy-blood",
+    "sourceSlide": null,
+    "sourceRefs": [
+      22
+    ],
+    "kind": "microscopy",
+    "clicks": 0,
+    "title": "PV: peripheral blood",
+    "image": "60160",
+    "chapter": "laboratory",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 28
+  },
+  {
+    "id": "microscopy-core",
+    "sourceSlide": null,
+    "sourceRefs": [
+      20,
+      22,
+      23
+    ],
+    "kind": "microscopy",
+    "clicks": 0,
+    "title": "PV: marrow core biopsy",
+    "image": "60161",
+    "chapter": "laboratory",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 29
+  },
+  {
+    "id": "source-23",
+    "sourceSlide": 23,
+    "sourceRefs": [
+      23
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Bone marrow morphology: The differential diagnosis of PV",
+    "image": "60162",
+    "chapter": "laboratory",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 30
+  },
+  {
+    "id": "microscopy-aspirate",
+    "sourceSlide": null,
+    "sourceRefs": [
+      23
+    ],
+    "kind": "microscopy",
+    "clicks": 0,
+    "title": "PV: aspirate smear",
+    "image": "60164",
+    "chapter": "laboratory",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 31
+  },
+  {
+    "id": "source-24",
+    "sourceSlide": 24,
+    "sourceRefs": [
+      24
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "PV Complications",
+    "image": null,
+    "chapter": "management",
+    "artwork": "marrow",
+    "illustrationCredit": true,
+    "position": 32
+  },
+  {
+    "id": "source-25",
+    "sourceSlide": 25,
+    "sourceRefs": [
+      25
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "Clinical phenotype: PV complications and risk",
+    "image": null,
+    "chapter": "management",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 33
+  },
+  {
+    "id": "source-26",
+    "sourceSlide": 26,
+    "sourceRefs": [
+      26
+    ],
+    "kind": "source",
+    "clicks": 2,
+    "title": "PV treatment",
+    "image": null,
+    "chapter": "management",
+    "artwork": "treatment-inline",
+    "illustrationCredit": true,
+    "position": 34
+  },
+  {
+    "id": "source-27",
+    "sourceSlide": 27,
+    "sourceRefs": [
+      27
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "PV treatment",
+    "image": null,
+    "chapter": "management",
+    "artwork": "none",
+    "illustrationCredit": false,
+    "position": 35
+  },
+  {
+    "id": "source-28",
+    "sourceSlide": 28,
+    "sourceRefs": [
+      28
+    ],
+    "kind": "source",
+    "clicks": 0,
+    "title": "THANK YOU",
+    "image": null,
+    "chapter": "management",
+    "artwork": "cover",
+    "illustrationCredit": true,
+    "position": 36
+  }
+]

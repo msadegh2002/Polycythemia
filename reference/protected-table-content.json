@@ -1,0 +1,41 @@
+{
+  "headers": [
+    "Variable",
+    "Causes",
+    "Associated clinical and/or laboratory features",
+    "Investigations required for diagnosis or assessment",
+    "Management"
+  ],
+  "bands": [
+    [
+      "Secondary polycythemia",
+      "Chronic hypoxia\n  High-altitude abode\n  OSA\nHypoventilation (eg Pickwickian syndrome)\n  Chronic lung disease\n  Cyanotic congenital heart disease\n  Cigarette smoking\n  Hookah smoking",
+      "O₂ saturation <92%\nObesity, nasal polyposis\nCentripetal obesity, cyanosis\nChronic productive cough, cyanosis\nCyanosis, heart murmurs\nHigh number of pack-years\nAssessed by number of “heads” or by daily duration",
+      "Measurement of O₂ saturation\nClinical assessment\nClinical assessment\nClinical and radiologic assessment\nClinical and cardiologic assessment\nStandard clinical history taking\nDirected history taking\nDirected history taking",
+      "None necessary\nWeight loss, CPAP during sleep\nWeight loss\nPulmonary management as indicated\nCorrective interventions as indicated\nInterventions to support cessation\nInterventions to support cessation\nAbstinence"
+    ],
+    [
+      "Secondary polycythemia",
+      "Drugs\n  Erythropoietin\n  SGLT2 inhibitors\n  Androgen use\nPolycystic kidney disease\nTumors\n  Uterine myoma\n  Hepatoma\n  Medulloblastoma\n  Hypernephroma",
+      "No longer frequently used in competitive sports\nUseful to correlate onset of polycythemia with onset of use\nInduce EPO gene expression\nTypical radiologic features\nTypical radiologic features",
+      "Standard clinical history taking\nDirected history taking, including nonprescription use\nStandard clinical history, physical examination, and imaging studies\nStandard clinical history, physical examination, and imaging studies",
+      "No long-term data available to inform management. Risk-benefit assessment probably favors continued use\nConsider phlebotomy to maintain hematocrit at 50%-52% prior to administration\nManaged according to clinical indications\nManaged according to clinical indications"
+    ],
+    [
+      "Congenital erythrocytosis",
+      "EPOR mutations\nHIF1 mutations\nVHL mutations\nEGLN1 mutations",
+      "Family history informative\nErythroid next-generation sequencing panels or whole-exome sequencing",
+      "NA",
+      "Expert opinion suggests maintaining hematocrit at approximately 52%"
+    ],
+    [
+      "Relative polycythemia",
+      "Chronic decreased fluid intake\n  SGLT2 inhibitors",
+      "Associated with a clinical phenotype of middle-aged, overweight men, often with “type A” personality and excess caffeine ingestion\nDiuretic effect",
+      "Clinical assessment\nRed blood cell mass measurement may be helpful if available",
+      "Encourage adequate fluid intake\nLifestyle modifications\nEncourage adequate fluid intake"
+    ]
+  ],
+  "criteriaHtml": [],
+  "treatmentHtml": []
+}

@@ -1,0 +1,37 @@
+# Dependencies and generated presentation builds
+/node_modules/
+/dist/
+/output/
+/.qa/
+/coverage/
+/.cache/
+/.vite-inspect/
+/.remote-assets/
+/components.d.ts
+
+# Generated exports, portable runtimes, and local rollback copies
+*.zip
+*.exe
+/slides-export.*
+/Polycythemia-backups/
+
+# ASH images are restored locally by npm ci; public redistribution is restricted.
+/public/images/ash-*.jpg
+/reference/source-images/image33.png
+
+# Local configuration, credentials, and logs
+.env
+.env.*
+!.env.example
+*.local
+*.log
+
+# Python authoring caches
+__pycache__/
+*.py[cod]
+.venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

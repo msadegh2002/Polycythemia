@@ -1,0 +1,15 @@
+POLYCYTHEMIA - PRESENTATION REVIEW
+
+1. Right-click the ZIP and choose Extract All.
+2. Open the extracted folder and double-click Open Presentation.cmd.
+
+The presentation opens in your browser, with its animations and transitions.
+No installation or internet connection is needed.
+
+Space / Right arrow: next step or slide
+Left arrow: previous step or slide
+F: fullscreen
+
+Close the presentation tab when finished. Keep the extracted files together.
+
+For Windows 10/11, 64-bit. A portable runtime is included in the viewer folder.
